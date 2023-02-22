@@ -1,0 +1,12 @@
+get https://8bpi48atdi.execute-api.ap-northeast-1.amazonaws.com/Hello-World-lambda
+
+###
+
+post https://8bpi48atdi.execute-api.ap-northeast-1.amazonaws.com/Hello-World-lambda
+
+Content-Type: application/json
+
+{
+    "firstName": "Lovlesh",
+    "lastName": "Baghel"
+}
